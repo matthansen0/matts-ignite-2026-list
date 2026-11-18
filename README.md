@@ -354,7 +354,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Cap RU/s per workload inside a shared container to stop noisy neighbors.*
     - [What's new in Azure DocumentDB at Ignite 2026 - GA + Preview](https://devblogs.microsoft.com/documentdb/whats-new-azure-documentdb-ignite-2026/)  
       *VS Code extension and near-instant clusters GA; full-text search, fine-grained RBAC, Azure Arc and Azure Local in preview.*
-    - [DocumentDB for VS Code - GA](https://azure.microsoft.com/updates?id=578237)  
+    - [DocumentDB for VS Code - GA](hhttps://microsoft.github.io/vscode-documentdb/)  
       *Free, open-source extension to connect, browse and query DocumentDB clusters.*
     - [Azure DocumentDB near-instant provisioning (M10–M30) - GA](https://azure.microsoft.com/updates?id=579349)  
       *Spin up paid tiers in moments for testing and agent-driven workflows.*
@@ -396,7 +396,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Faster graph queries and builds through better planning and graph joins.*
 
 - **Azure SQL & SQL Server:**
-    - [SQL Server 2025 on Ubuntu 26.04 LTS - Public Preview](https://azure.microsoft.com/updates?id=578579)  
+    - [SQL Server 2025 on Ubuntu 26.04 LTS - Public Preview](https://techcommunity.microsoft.com/blog/sqlserver/announcing-sql-server-2025-preview-support-on-ubuntu-26-04-lts/4547833)  
       *Evaluate SQL Server 2025 on the latest Ubuntu LTS.*
     - [Azure SQL mid-November tooling updates (SSMS) - Public Preview](https://azure.microsoft.com/updates?id=579359)  
       *New SSMS Create and Apply wizards for .dacpac/.bacpac and other tooling refinements.*
@@ -636,11 +636,11 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Policies for Execution Containers, Vulnerability Remediation Agent, AI app protection, Windows Server management and CIS auditing.*
 
 - **Azure platform security:**
-    - [Azure Adaptive Virtual Patching - Public Preview](https://azure.microsoft.com/updates?id=580689)  
+    - [Azure Adaptive Virtual Patching - Public Preview](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/the-patch-window-is-closing-put-time-back-on-the-defender%E2%80%99s-side-/4573402)  
       *AI-orchestrated shield that reduces zero-day exposure while patches are tested and rolled out.*
-    - [AI Security add-on for Azure Firewall Premium - Public Preview](https://azure.microsoft.com/updates?id=580694)  
+    - [AI Security add-on for Azure Firewall Premium - Public Preview](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/secure-ai-secure-with-ai-introducing-the-next-chapter-of-azure-firewall-/4573399)  
       *Five capabilities to protect AI apps, sensitive data and app traffic at the firewall.*
-    - [Azure Bastion RDP and SSH vision - Public Preview](https://azure.microsoft.com/updates?id=580699)  
+    - [Azure Bastion RDP and SSH vision - Public Preview](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/from-recordings-to-insights-azure-bastion-brings-ai-to-privileged-session-review/4573409)  
       *AI summaries and risky-activity insights over recorded privileged sessions.*
     - [Azure DDoS Protection custom policy - GA](https://azure.microsoft.com/updates?id=580852)  
       *Override auto-tuned detection thresholds per protected resource.*
