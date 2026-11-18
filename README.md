@@ -62,7 +62,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **AI infrastructure for agents:**
     - [Azure Catalyst and new AI infrastructure: Agent Grid, Agent Sandbox, Flex nodes for AKS - GA + Preview](https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/)  
       *Azure blog post introducing Catalyst plus agent networking, isolation and hybrid AKS capacity for production AI.*
-    - [Agent Grid - Public Preview](https://azure.microsoft.com/updates?id=580684)  
+    - [Agent Grid - Public Preview](https://aka.ms/AGIgniteBlog)  
       *Identity-based Zero Trust network security for agent, model and tool traffic on Azure.*
     - [Flex nodes for AKS - Public Preview](https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/)  
       *Extends AKS node pools to supported GPU and server environments beyond Azure, governed through Azure Arc.*
@@ -70,9 +70,9 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **Storage & backup:**
     - [Azure Elastic SAN Next Generation - Public Preview](https://azure.microsoft.com/updates?id=581634)  
       *Next-gen Elastic SAN keeps the shared-performance SAN model while raising scale and performance.*
-    - [Azure Blob Storage turbo tier - Public Preview](https://azure.microsoft.com/updates?id=579031)  
+    - [Azure Blob Storage turbo tier - Public Preview](https://aka.ms/TurboTierPreviewBlog)  
       *SSD-backed tier for performance-sensitive blob data such as AI training, inference and analytics.*
-    - [Session-based authentication for Blob and Data Lake Storage - Public Preview](https://azure.microsoft.com/updates?id=580306)  
+    - [Session-based authentication for Blob and Data Lake Storage - Public Preview](https://aka.ms/sessionauthblog)  
       *Cuts per-request auth overhead for AI agents and apps while keeping existing security controls.*
     - [Azure Files NFS shares on HDD - Public Preview](https://azure.microsoft.com/updates?id=579369)  
       *Lower-cost HDD option for Linux NFS file shares alongside the existing SSD tier.*
@@ -82,7 +82,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Faster, more resilient managed-disk attach and detach operations, coming to AKS and more.*
 
 - **Networking:**
-    - [Azure Multicloud Interconnect - GA](https://azure.microsoft.com/updates?id=579766)  
+    - [Azure Multicloud Interconnect - GA](https://aka.ms/Interconnect-Ignite)  
       *Managed private connectivity between Azure and other clouds (Google Cloud in preview).*
     - [ExpressRoute Direct link groups - Public Preview](https://azure.microsoft.com/updates?id=580926)  
       *Aggregate multiple ExpressRoute Direct links to scale throughput with less operational overhead.*
@@ -112,7 +112,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Model workload health from metrics, logs and dependencies as a first-class, business-aware construct.*
     - [Azure Monitor Application Insights traces experience - Public Preview](https://azure.microsoft.com/updates?id=580184)  
       *Compare thousands of distributed traces and drill from trends to root cause.*
-    - [Azure Workload Center for SAP and Oracle - Preview](https://azure.microsoft.com/updates?id=581209) | [Oracle](https://azure.microsoft.com/updates?id=581214)  
+    - [Azure Workload Center for SAP and Oracle - Preview](https://aka.ms/workloadcenterforsap-blog) | [Oracle](https://azure.microsoft.com/updates?id=581214)  
       *Workload-aware health monitoring and configuration validation for SAP and Oracle, paired with Azure Copilot Run agents.*
     - [Azure Infrastructure Resiliency Manager - GA](https://azure.microsoft.com/updates?id=580748)  
       *Goal-driven resiliency hub: zone-resilient templates, at-scale assessments, drills and recovery guidance.*
