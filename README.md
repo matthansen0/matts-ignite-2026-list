@@ -328,11 +328,13 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Query across databases in the same Hyperscale elastic pool with three-part T-SQL names.*
     - [Managed Instance link for multi-database availability groups - GA](https://techcommunity.microsoft.com/blog/azuresqlblog/mi-link-support-for-multiple-databases-in-an-always-on-availability-group-is-now/4571052) | [Azure Update](https://azure.microsoft.com/updates?id=578028)  
       *Managed Instance link now replicates Always On availability groups containing multiple databases.*
-    - [SQL Managed Instance Next-gen GP zone redundancy - GA](https://azure.microsoft.com/updates?id=578033)  
+    - [SQL Managed Instance Next-gen GP zone redundancy - GA](https://techcommunity.microsoft.com/blog/AzureSQLBlog/zone-redundant-next-gen-general-purpose-for-azure-sql-managed-instance/4547525)  
       *Spread Next-gen General Purpose instances across availability zones.*
-    - [Azure SQL Managed Instance mid-November updates - GA](https://azure.microsoft.com/updates?id=578465) | [Azure SQL Database updates](https://azure.microsoft.com/updates?id=578471)  
+    - [Azure SQL Managed Instance mid-November updates - GA](https://techcommunity.microsoft.com/blog/azuresqlblog/azure-sql-managed-instance-gets-a-boost-new-capabilities-in-next-gen-general-pur/4573761)
       *Higher log throughput for Next-gen General Purpose and other MI improvements.*
-    - [Fuzzy string matching across Microsoft SQL - GA](https://azure.microsoft.com/updates?id=578998)  
+    - [Flexible Memory in Azure SQL Managed Instance](https://techcommunity.microsoft.com/blog/azuresqlblog/unlocking-more-power-with-flexible-memory-in-azure-sql-managed-instance/4425054)  
+      *Customize the memory-to-vCore ratio in your SQL Managed Instance*
+    - [Fuzzy string matching across Microsoft SQL - GA](https://devblogs.microsoft.com/azure-sql/fuzzy-string-matching-is-now-generally-available-across-microsoft-sql/)  
       *Built-in similarity functions across Azure SQL, SQL MI, Fabric SQL and SQL Server 2025.*
     - [AES-256 TDE protectors in Key Vault Premium / Managed HSM - GA](https://azure.microsoft.com/updates?id=579531)  
       *Symmetric AES-256 keys as TDE protectors, an alternative to RSA for quantum readiness.*
