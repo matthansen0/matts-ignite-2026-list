@@ -156,7 +156,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Zero-knowledge-style verification of specific claims without revealing underlying data.*
 
 - **Windows Server:**
-    - [Windows Server 2028 - Public Preview](https://azure.microsoft.com/updates?id=581135) | [Windows blog](https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/)  
+    - [Windows Server 2028 - Public Preview](https://learn.microsoft.com/en-us/windows-server/get-started/whats-new-windows-server-2028) 
       *Next LTSC release: hardened defaults, PQC, NVMe-oF, Arc/Intune management and hybrid AI inference.*
     - [Hardened Server Core for Windows Server Insiders - Announced](https://techcommunity.microsoft.com/blog/windowsservernewsandbestpractices/announcing-hardened-server-core-for-windows-server-insiders/4574239)  
       *Secure-by-default Server Core option that ships hardened instead of compatible-by-default, for Insiders.*
@@ -164,7 +164,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 ### Notable Updates
 
 - **Compute & silicon:**
-    - [Azure Linux 4.0 for VMs and VM Scale Sets - GA](https://azure.microsoft.com/updates?id=581165)  
+    - [Azure Linux 4.0 for VMs and VM Scale Sets - GA](https://aka.ms/azurelinux-blog)  
       *Microsoft's first-party Linux distribution built for Azure, now generally available for IaaS.*
     - [IBM Spectrum LSF with Azure Compute Fleet - GA](https://azure.microsoft.com/updates?id=581259)  
       *LSF resource connector bursts HPC jobs into Azure Compute Fleet capacity on demand.*
@@ -214,7 +214,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Run web apps across Azure regions for higher resilience.*
     - [What's new in Azure Functions and Durable Task Scheduler - GA + Preview](https://techcommunity.microsoft.com/blog/AppsonAzureBlog/whats-new-in-azure-functions-and-durable-task-scheduler-at-microsoft-ignite-2026/4573933)  
       *Managed connectors, agent bindings, Functions Canvas and Skills, Durable Task for LangGraph and Pydantic AI, CLI v5 and new runtimes.*
-    - [Managed connectors in Azure Functions - GA](https://azure.microsoft.com/updates?id=579440)  
+    - [Managed connectors in Azure Functions - GA](https://techcommunity.microsoft.com/blog/AppsonAzureBlog/managed-connectors-in-azure-functions-are-now-generally-available/4574143)  
       *Trigger on and act across Microsoft 365, SaaS and business systems using the Functions model.*
     - [Azure Functions hosted skill and agent bindings - Public Preview](https://azure.microsoft.com/updates?id=578845)  
       *Add agents and skills to Functions apps through bindings instead of custom plumbing.*
