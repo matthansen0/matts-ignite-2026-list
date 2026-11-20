@@ -4,9 +4,9 @@
 
 This is a personal collection of announcements and updates from **Microsoft Ignite 2026**, organized by product area for navigation and reference.
 
-**Last Updated:** November 19, 2026 at 11:34AM EST
+**Last Updated:** November 20, 2026 at 6:24AM EST
 
-**🎯 What's Inside:** 370 announcements across Infrastructure, Apps, Data, AI, Microsoft 365, Windows, GitHub, Security, and Research with direct links to official documentation and blog posts.
+**🎯 What's Inside:** 390 announcements across Infrastructure, Apps, Data, AI, Microsoft 365, Windows, GitHub, Security, and Research with direct links to official documentation and blog posts.
 
 ---
 
@@ -41,7 +41,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Intel Xeon 5th Gen VMs with Azure Boost, optimized for high remote storage throughput.*
     - [DHasv8, DHalsv8 and EHasv8 VMs (AMD EPYC "Venice") - Preview](https://techcommunity.microsoft.com/blog/AzureCompute/announcing-preview-of-new-azure-dhehasv8-vms-based-on-6th-gen-amd-epyc%E2%84%A2-%E2%80%9Cvenice%E2%80%9D/4573295) | [Azure Update](https://azure.microsoft.com/updates?id=581308)  
       *6th Gen AMD EPYC VMs up to 480 cores and 3.8 TiB memory for agentic AI and database workloads.*
-    - [Mv4 with CXL memory, Mv4 Medium Memory and Mbv4 VMs - GA + Preview](https://techcommunity.microsoft.com/blog/sapapplications/azure-mv4-at-ignite-2026-advancing-performance-scalability-and-tco-with-cxl/4573907)  
+    - [Mv4 with CXL memory, Mv4 Medium Memory and Mbv4 VMs - GA + Preview](https://techcommunity.microsoft.com/blog/sapapplications/azure-mv4-at-ignite-2026-advancing-performance-scalability-and-tco-with-cxl/4573907) | [Mv4 Medium Memory GA](https://techcommunity.microsoft.com/blog/SAPApplications/announcing-general-availability-of-new-mv4-medium-memory-virtual-machines/4574571)  
       *CXL-attached memory up to 8 TB (private preview), Mv4 Medium Memory GA and storage-optimized Mbv4 for SAP, SQL Server and Epic.*
     - [Next-gen confidential VMs on 5th Gen AMD EPYC - Gated Preview](https://techcommunity.microsoft.com/blog/AzureConfidentialComputingBlog/announcing-gated-preview-of-next-gen-azure-confidential-vms-with-5th-generation-/4570276) | [Azure Update](https://azure.microsoft.com/updates?id=581199)  
       *Gated preview of DCasv7/ECasv7-family AMD SEV-SNP confidential VMs.*
@@ -57,7 +57,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Self-serve service letting image publishers and platform teams run Azure's VM image validation checks.*
     - [Azure Compute Fleet single-instance launch and vCPU-based capacity - GA](https://techcommunity.microsoft.com/blog/AzureCompute/generally-available-single-instance-launch-mode-and-vcpu-based-capacity-for-azur/4570380)  
       *Compute Fleet adds one-time single-instance launches and capacity requests expressed in vCPUs.*
-    - [Zone resilience for Azure VMs](https://techcommunity.microsoft.com/blog/AzureCompute/zone-resilience-for-azure-vms/4573176)  
+    - [Zone resilience for Azure VMs - Public Preview](https://techcommunity.microsoft.com/blog/AzureCompute/zone-resilience-for-azure-vms/4573176) | [Azure Update](https://azure.microsoft.com/updates?id=581254)  
       *Recover an eligible VM into another availability zone in the same region.*
     - [Guest RDMA for Azure Boost - Public Preview](https://techcommunity.microsoft.com/blog/AzureCompute/announcing-public-preview-of-guest-rdma-for-azure-boost/4573027)  
       *RDMA inside guest VMs through the Azure Boost NIC on standard Intel Emerald Rapids and AMD EPYC 9005 sizes.*
@@ -71,6 +71,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Extends AKS node pools to supported GPU and server environments beyond Azure, governed through Azure Arc.*
     - [Direct virtualization in Azure VMs - Private Preview](https://techcommunity.microsoft.com/blog/AzureCompute/direct-virtualization-a-new-foundation-for-agentic-ai-in-azure/4573925)  
       *Host VM-grade isolated sandboxes with direct GPU access inside Azure VMs, without nested-hypervisor overhead.*
+    - [Serverless sandboxes in Azure Container Instances for AI agents - Public Preview](https://techcommunity.microsoft.com/blog/AzureCompute/azure-infrastructure-for-agentic-ai/4574616) | [Docs](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-ai-sandboxes)  
+      *Hyper-V micro-VM sandboxes for agent-written code with snapshot, clone, pause and restore, Entra Agent ID and Agent Grid egress control.*
 
 - **Storage & backup:**
     - [Azure Elastic SAN Next Generation - Public Preview](https://techcommunity.microsoft.com/blog/AzureStorageBlog/azure-elastic-san-next-generation-public-preview-mission-critical-performance--c/4573949)  
@@ -143,6 +145,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Work incident investigations with the SRE agent directly in Slack channels.*
     - [On-demand Azure SRE Agent debugging in Azure Container Apps - Public Preview](https://techcommunity.microsoft.com/blog/AppsonAzureBlog/azure-sre-agent-brings-on-demand-ai-powered-operations-to-your-aca-workloads/4573380)  
       *'Debug with SRE Agent' starts serverless, read-only troubleshooting sessions for any container app, nothing to deploy.*
+    - [Azure SRE Agent in Azure Managed Grafana - Public Preview](https://techcommunity.microsoft.com/blog/AppsonAzureBlog/introducing-azure-sre-agent-in-azure-managed-grafana-the-dashboard-as-command-ce/4575039)  
+      *Investigate incidents with the SRE agent in a pane beside your Grafana dashboards, using the same data sources and asking before it acts.*
     - [What's new in Azure Monitor at Ignite 2026 - GA + Preview](https://techcommunity.microsoft.com/blog/AzureObservabilityBlog/whats-new-in-azure-monitor-at-ignite-2026/4573974)  
       *Azure Monitor roundup: agent observability, OpenTelemetry onboarding GA, PII redaction, schemaless ingestion and a VM-hosted pipeline.*
     - [Agent observability in Azure Monitor - GA + Preview](https://techcommunity.microsoft.com/blog/azureobservabilityblog/agent-observability-in-azure-monitor-at-ignite-2026/4573966)  
@@ -253,6 +257,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **Storage & backup:**
     - [Snapshot-based backup for SQL Server on Azure VMs - GA](https://azure.microsoft.com/updates?id=564668)  
       *Azure Backup combines disk snapshots with SQL log backups for fast, low-impact full backups.*
+    - [Azure Managed Lustre in-place capacity expansion - GA + Preview](https://techcommunity.microsoft.com/blog/AzureHighPerformanceComputingBlog/scale-azure-managed-lustre-as-your-ai-and-hpc-workloads-grow/4573518) | [Docs](https://learn.microsoft.com/en-us/azure/azure-managed-lustre/expand-file-system-portal)  
+      *Grow a Managed Lustre file system while it stays online and mounted; optional rebalancing across the new storage is in public preview.*
 
 - **Operations, observability & resiliency:**
     - [Protected Gen AI content in Application Insights and Foundry](https://techcommunity.microsoft.com/blog/AzureObservabilityBlog/announcing-protected-gen-ai-content-in-azure-monitor-application-insights-and-mi/4572729)  
@@ -275,6 +281,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Create Trusted Launch Hyper-V VMs from vMode and check their boot integrity with Microsoft Azure Attestation.*
     - [Network HUD for Windows Server 2025 - GA](https://techcommunity.microsoft.com/blog/NetworkingBlog/announcing-general-availability-for-network-hud-on-windows-server-2025/4534181)  
       *Arc-delivered Network HUD detects VLAN, driver, PCIe and adapter problems on Windows Server 2025 Datacenter clusters.*
+    - [AMD Instinct MI350P GPU support on Windows Server - In Development](https://techcommunity.microsoft.com/blog/WindowsServerNewsandBestPractices/expanding-ai-silicon-capabilities-on-windows-server-with-amd/4574513)  
+      *Upcoming MI350P PCIe GPU support so Windows Server can run local AI inference for RAG, coding assistants and agents beside existing apps.*
 
 ---
 
@@ -435,6 +443,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Real-time CPU, memory, storage and IO dashboards across database engines.*
     - [Database Agent recommendations - Public Preview](https://azure.microsoft.com/updates?id=580091)  
       *Evidence-grounded diagnoses and next steps for detected database issues.*
+    - [Database Agent for Azure Database for PostgreSQL - Public Preview](https://azure.microsoft.com/updates?id=579579)  
+      *Watches PostgreSQL server health, correlates metrics, logs and query plans to find likely root causes, and suggests fixes for you to review.*
     - [What's new in databases at Microsoft Ignite 2026 - GA + Preview](https://techcommunity.microsoft.com/blog/AzureSQLBlog/whats-new-in-databases-at-microsoft-ignite-2026-ai-ready-data-for-apps-and-agent/4570764)  
       *Databases roundup with AI-assisted Oracle application conversion and a relational-to-Cosmos DB modernization assistant.*
 
@@ -521,8 +531,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Keep MongoDB-compatible workloads on your own Azure Local infrastructure for sovereignty.*
     - [Azure DocumentDB granular RBAC - Public Preview](https://azure.microsoft.com/updates?id=578262)  
       *Scope roles and permissions to individual databases and collections.*
-    - [Azure DocumentDB full-text search - Public Preview](https://azure.microsoft.com/updates?id=578232)  
-      *BM25 indexing with relevance-ranked results.*
+    - [Azure DocumentDB full-text search - Public Preview](https://devblogs.microsoft.com/documentdb/fts-azure-documentdb/)  
+      *BM25 relevance ranking with fuzzy, phrase and proximity matching, custom analyzers, structured filters and hybrid vector search.*
 
 - **Redis & MySQL:**
     - [What's new in Azure Managed Redis at Ignite 2026 - GA + Preview](https://techcommunity.microsoft.com/blog/azure-managed-redis/what%E2%80%99s-new-in-azure-managed-redis-at-microsoft-ignite-2026/4574168)  
@@ -551,12 +561,16 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **PostgreSQL & HorizonDB:**
     - [Azure HorizonDB Apache AGE performance improvements - GA](https://azure.microsoft.com/updates?id=579660)  
       *Faster graph queries and builds through better planning and graph joins.*
+    - [PostgreSQL 19 on Azure Database for PostgreSQL - Public Preview](https://techcommunity.microsoft.com/blog/ADforPostgreSQL/postgresql-19-on-day-one-new-capabilities-a-managed-path-forward/4572732) | [Azure Update](https://azure.microsoft.com/updates?id=574587)  
+      *Try PostgreSQL 19 on flexible server on release day, with in-place major version upgrades, pre-upgrade checks and key extensions; East Asia first.*
 
 - **Azure SQL & SQL Server:**
     - [SQL Server 2025 on Ubuntu 26.04 LTS - Public Preview](https://techcommunity.microsoft.com/blog/sqlserver/announcing-sql-server-2025-preview-support-on-ubuntu-26-04-lts/4547833)  
       *Evaluate SQL Server 2025 on the latest Ubuntu LTS.*
-    - [Azure SQL mid-November tooling updates (SSMS) - Public Preview](https://azure.microsoft.com/updates?id=579359)  
+    - [Azure SQL mid-November tooling updates (SSMS) - Public Preview](https://devblogs.microsoft.com/azure-sql/new-create-and-apply-wizards-in-ssms-preview) | [Azure Update](https://azure.microsoft.com/updates?id=579359)  
       *New SSMS Create and Apply wizards for .dacpac/.bacpac and other tooling refinements.*
+    - [SqlPackage deployment history and fast comparison - Preview](https://devblogs.microsoft.com/azure-sql/sqlpackage-deployment-history-and-fast-comparison-preview/)  
+      *SqlPackage 170.6 preview records each deployment in the target database and can skip a full schema comparison when a repeat publish matches the last one.*
     - [Suspend and resume TDE encryption scans in Azure SQL Database - Public Preview](https://techcommunity.microsoft.com/blog/azuresqlblog/take-control-of-transparent-data-encryption-scans-suspend-and-resume-now-in-prev/4571096)  
       *Pause a transparent data encryption scan during busy hours and resume it later from the portal or T-SQL.*
 
@@ -683,6 +697,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **Microsoft IQ:**
     - [SharePoint tools in Work IQ - Public Preview](https://techcommunity.microsoft.com/blog/spblog/introducing-sharepoint-tools-in-work-iq/4569917)  
       *60+ native SharePoint operations for any agent via the Work IQ MCP server, scoped by new WorkIQ.Read/Act permissions.*
+    - [Starter Pack for Work IQ - Available](https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq/) | [GitHub repo](https://github.com/microsoft/Work-IQ-Starter-Pack)  
+      *Open-source scripts fill a demo or developer tenant with fictitious users, mail, Teams, SharePoint and Dynamics 365 data, plus four Work IQ labs.*
 
 ---
 
@@ -705,7 +721,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *A prioritized daily view that updates as new information arrives.*
     - [Autopilot: your trusted personal teammate - Frontier](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/autopilot-meet-your-trusted-personal-teammate/4572611)  
       *Always-on cloud personal agent with its own identity, mailbox, memory and remote computer, working in Teams and Outlook.*
-    - [Copilot Code - Frontier](https://learn.microsoft.com/en-us/copilot/code/overview)  
+    - [Copilot Code - Frontier](https://learn.microsoft.com/en-us/copilot/code/overview) | [Mechanics walkthrough](https://techcommunity.microsoft.com/blog/MicrosoftMechanicsBlog/build-apps-by-describing-what-you-want-with-copilot%C2%A0code/4575026)  
       *Code tab turns plain-language requests into apps, dashboards and scripts; GA planned in the coming weeks.*
     - [Copilot Managed Runtime - GA + Preview](https://techcommunity.microsoft.com/blog/copilot-managed-runtime-blog/copilot-managed-runtime-is-now-generally-available-with-additional-new-preview-f/4571846)  
       *Securely host and manage Copilot-built apps in your tenant (GA), with Fabric integration and local agent development in preview.*
@@ -719,6 +735,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Frontier Tuning private preview expands with a GitHub Copilot plugin, CLI and APIs, and Cowork plugin publishing.*
     - [Copilot Cowork in GCC - GA](https://techcommunity.microsoft.com/blog/PublicSectorBlog/copilot-cowork-is-now-generally-available-in-gcc-delegate-multi-step-work-inside/4574184)  
       *Cowork reaches GCC tenants on Azure Government-hosted models with Purview controls; GCC High support is planned next.*
+    - [Compliant web search for Copilot in GCC and GCC High - In Development](https://techcommunity.microsoft.com/blog/PublicSectorBlog/mission-forward-take-another-look-at-copilot-for-government/4574881)  
+      *Copilot in GCC and GCC High will ground answers in a regionally hosted web index inside the compliance boundary; GA targeted for Q2 2027.*
 
 - **Agent 365 value & FinOps:**
     - [Agent 365 Business Analytics - Frontier](https://techcommunity.microsoft.com/blog/ai-finops-blog/introducing-microsoft-agent-365-business-analytics-turn-ai-investment-into-busin/4574149)  
@@ -737,7 +755,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Updated Sales, Customer Service and ERP plugins for Copilot and Excel, Work IQ integration and Contact Center Intelligence GA.*
     - [Dynamics 365 Activate for CRM and ERP migrations - GA + Preview](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/17/microsoft-ignite-2026-introducing-dynamics-365-in-copilot/)  
       *Salesforce-to-Dynamics 365 migration is GA; agentic ERP migration from SAP ECC enters private preview.*
-    - [Business Applications in Work IQ - GA + Preview](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/)  
+    - [Business Applications in Work IQ - GA + Preview](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/) | [ERP in Work IQ](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/unlock-new-possibilities-for-dynamics-365-erp-with-work-iq-and-business-skills/)  
       *Dynamics 365 and Power Platform context GA in Copilot Chat, Agent Builder and Copilot Studio; ERP and Cowork in preview.*
     - [Microsoft Contact Center Intelligence - GA](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/microsoft-contact-center-intelligence-now-generally-available-transform-customer-interactions/)  
       *Contact Center Intelligence GA with Avaya, Cisco and Five9 connectors, voice biometrics and a QA agent.*
@@ -765,12 +783,18 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **Partners & Marketplace:**
     - [Partner program and Marketplace news at Ignite 2026 - Announced](https://partner.microsoft.com/en-us/blog/article/microsoft-ignite-2026)  
       *New benefits package, an E7 AI Activation offer, an Agentic Partner Capability Score and Marketplace bundling and co-sell tools.*
+    - [Microsoft Marketplace private offer updates and multiparty expansion - Available](https://partner.microsoft.com/en-us/blog/article/marketplace-post-ignite-2026)  
+      *Multiparty private offers reach Saudi Arabia and Malaysia, buyers can request private offers from listings with one-step purchase, and 16-currency pricing is coming.*
 
 ### Notable Updates
 
 - **Teams & Microsoft 365 platform:**
     - [Unified tasks and plans for Copilot and Microsoft 365 - Rolling Out](https://techcommunity.microsoft.com/blog/PlannerBlog/introducing-unified-tasks-and-plans-for-copilot-and-microsoft-365/4573958)  
       *One plan model replaces separate To Do and Planner plan types across Microsoft 365; To Do apps retire June 2027.*
+
+- **Copilot Studio & Power Platform:**
+    - [Power Pages sites in Power Platform inventory - Public Preview](https://www.microsoft.com/en-us/power-platform/blog/2026/11/19/discover-and-review-power-pages-sites-with-power-platform-inventory-public-preview/)  
+      *Find, filter and export Power Pages sites across environments in the Power Platform admin center inventory, or query them through Azure Resource Graph.*
 
 ---
 
@@ -791,6 +815,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Windows endpoint security platform GA, Windows baseline protection preview, post-quantum TLS and passwordless improvements.*
     - [Rethinking Windows management for modern IT - GA + Preview](https://techcommunity.microsoft.com/blog/windows-itpro-blog/rethinking-windows-management-for-modern-it/4572664)  
       *Autopatch hotpatch and maintenance windows, OS reliability report in Intune, declarative management and quick machine recovery.*
+    - [RDMA over USB4 on Windows for multi-PC local AI - Developer Preview](https://techcommunity.microsoft.com/blog/MicrosoftUSBBlog/introducing-rdma-over-usb4%C2%AE-on-windows-run-larger-local-ai-models-across-pcs/4574602)  
+      *Link Windows PCs over USB4 with RDMA so one local AI model can span their combined memory and GPUs; the Insider build is coming soon.*
 
 - **Windows 365 & Azure Virtual Desktop:**
     - [Windows 365 at Ignite 2026: Cloud PCs for people and agents - GA + Preview](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-365-at-ignite-2026-introducing-new-cloud-pc-capabilities-for-people-agen/4570006)  
@@ -801,6 +827,8 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **Microsoft Edge:**
     - [Edge for Business Ignite 2026 innovations - GA + Preview](https://blogs.windows.com/msedgedev/2026/11/17/edge-for-business-ignite-2026-innovations/)  
       *Cowork agentic browsing GA, managed agent browsing, extension risk scores, leak controls, Sentinel connector and private app access.*
+    - [Aion Instruct, Prompt API origin trial and Decisions API in Microsoft Edge - GA + Preview](https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/)  
+      *Edge's built-in on-device model becomes the open-weight Aion Instruct; the Prompt API enters an origin trial and a Decisions API reaches developer preview.*
 
 - **Windows security & management:**
     - [Windows endpoint security platform and Driver Quality Initiative - GA](https://techcommunity.microsoft.com/blog/Windows-ITPro-blog/whats-next-windows-endpoint-security-platform-and-driver-quality/4572663)  
@@ -825,7 +853,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **GitHub Copilot:**
     - [Microsoft Copilot SDK 2.0 - GA](https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/)  
       *Multi-tenant Rust runtime with per-session identity, host-owned tools and durable sessions; SDKs in six languages.*
-    - [GitHub Copilot app: Microsoft Ignite releases - GA + Preview](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/)  
+    - [GitHub Copilot app: Microsoft Ignite releases - GA + Preview](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/) | [Azure DevOps integration](https://devblogs.microsoft.com/devops/azure-devops-integration-with-the-github-copilot-app-public-preview/)  
       *Azure DevOps repos from clone to merge and browser use in your signed-in browser (preview), plus GHES support GA.*
     - [Copilot code review: adaptive effort, secret detection and more - Announced](https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/)  
       *Review depth adapts to each pull request, and reviews can flag secrets on added lines.*
@@ -857,16 +885,26 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **Azure DevOps & .NET:**
     - [Azure DevOps Sprint 282: Cowork plugin and Agentic Autofix - GA + Preview](https://learn.microsoft.com/en-us/azure/devops/release-notes/2026/sprint-282-update)  
       *Azure DevOps plugin for Copilot Cowork and Copilot-drafted fixes for GitHub Advanced Security for Azure DevOps alerts.*
+    - [Copilot Code Review for Azure DevOps - GA + Preview](https://devblogs.microsoft.com/devops/azure-devops-and-github-start-your-agentic-journey-where-you-are/)  
+      *Copilot reviews Azure Repos pull requests through branch policies with per-review billing; Autofix and Azure Repos in the Copilot app are in preview.*
+    - [Aspire 17 - Available](https://devblogs.microsoft.com/aspire/whats-new-aspire-17/) | [What's new](https://aspire.dev/whats-new/aspire-17/)  
+      *Major Aspire release: redesigned dashboard with tags, team config sources for templates and skills, Go AppHosts in preview, and stable Kubernetes and AKS deployment.*
 
 - **Azure CLI & PowerShell:**
     - [Next generation of Azure CLI and Azure PowerShell - Public Preview](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-the-next-generation-of-azure-cli-and-azure-powershe/4573824)  
       *A shared command engine with named sign-in profiles, better command help and optional AI troubleshooting for failed CLI commands.*
+    - [PowerShell 7 coming to Windows - Announced](https://devblogs.microsoft.com/powershell/powershell-7-coming-to-windows/)  
+      *The next Windows release ships PowerShell 7 in the box next to Windows PowerShell 5.1, so existing scripts keep running; it installs as MSIX.*
 
 ### Notable Updates
 
 - **Azure DevOps & .NET:**
     - [.NET 11 - GA](https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/)  
       *Annual .NET release shipped at .NET Conf the week before Ignite; .NET 8 and .NET 9 left support the same day.*
+    - [Enterprise Live Migrations from Azure DevOps to GitHub Enterprise Cloud - GA](https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available/)  
+      *Move Azure DevOps repos, history and pull requests to GHE.com with data residency while teams keep working, then cut over.*
+    - [Staged publishing on NuGet.org - Available](https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/)  
+      *Stage packages privately on NuGet.org through full validation, then an authorized maintainer promotes them; staging-only API keys keep pipelines from publishing directly.*
 
 - **GitHub Copilot:**
     - [Customize GitHub Copilot for your team - GA](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/)  
@@ -889,6 +927,12 @@ This is a personal collection of announcements and updates from **Microsoft Igni
 - **VS Code:**
     - [Skills over MCP in VS Code - Available](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/skills-over-mcp-are-now-available-in-vs-code/4574580)  
       *VS Code 1.147 and later can load agent skills served by MCP servers, sharing authentication and versioning with tools.*
+    - [Copilot harness is now the default in VS Code](https://code.visualstudio.com/blogs/2026/11/18/copilot-harness) | [Release notes](https://code.visualstudio.com/updates/v1_147)  
+      *New agent sessions use the Copilot SDK-based harness shared with Copilot CLI and app; the Local harness is deprecated, with removal in February 2027.*
+
+- **GitHub Actions:**
+    - [Red Hat Enterprise Linux images for GitHub-hosted larger runners - GA](https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/)  
+      *RHEL 9 and RHEL 10 images for GitHub-hosted larger runners leave preview and are supported for production Actions workflows.*
 
 ---
 
@@ -905,7 +949,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *Expanded preview of Microsoft's multi-model agentic code security system, now with MAI-Cyber models.*
     - [GitHub and Codename MDASH: fixes, not bug reports, for maintainers - Announced](https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/)  
       *MDASH plus GitHub triage turned AI findings into 99 verified private reports with fixes for six OSS projects.*
-    - [What's new with Microsoft Perception at Ignite 2026 - GA + Preview](https://techcommunity.microsoft.com/blog/perception-blog/whats-new-with-microsoft-perception-at-ignite-2026/4571834)  
+    - [What's new with Microsoft Perception at Ignite 2026 - GA + Preview](https://techcommunity.microsoft.com/blog/perception-blog/whats-new-with-microsoft-perception-at-ignite-2026/4571834) | [Third-party data](https://techcommunity.microsoft.com/blog/perception-blog/more-signals-stronger-defense-microsoft-perception-expands-to-third-party-data/4573037)  
       *Agents reason over Okta, AWS and Salesforce signals, a detect-emerging-threats playbook and usage and cost dashboards.*
     - [New exposure management capabilities in Microsoft Perception - GA + Preview](https://techcommunity.microsoft.com/blog/securityexposuremanagement/introducing-new-exposure-management-capabilities-in-microsoft-perception/4569977)  
       *Posture Prioritization Agent GA, Risk Reduction Agent preview and outcome-based AI Readiness Initiatives.*
@@ -951,7 +995,7 @@ This is a personal collection of announcements and updates from **Microsoft Igni
       *AI summaries and risky-activity insights over recorded privileged sessions.*
     - [Azure DDoS Protection custom policy - GA](https://techcommunity.microsoft.com/blog/AzureNetworkSecurityBlog/azure-ddos-custom-policy-ga/4573866)  
       *Override auto-tuned detection thresholds per protected resource.*
-    - [Azure DDoS Protection peacetime telemetry and NAT Gateway coverage - Public Preview](https://azure.microsoft.com/updates?id=581175) | [NAT Gateway StandardV2 coverage](https://techcommunity.microsoft.com/blog/AzureNetworkSecurityBlog/ddos-support-for-natgwv2-ip---public-preview/4573913)  
+    - [Azure DDoS Protection peacetime telemetry and NAT Gateway coverage - Public Preview](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/announcing-public-preview-of-azure-ddos-protection-peacetime-telemetry/4574781) | [NAT Gateway StandardV2 coverage](https://techcommunity.microsoft.com/blog/AzureNetworkSecurityBlog/ddos-support-for-natgwv2-ip---public-preview/4573913)  
       *See traffic outside active attacks and protect NAT Gateway StandardV2 outbound IPs.*
     - [Azure Key Vault Premium symmetric (oct-HSM, AES) keys - GA](https://azure.microsoft.com/updates?id=579374)  
       *Symmetric AES encryption directly in Key Vault Premium, after a July preview.*
@@ -1030,4 +1074,4 @@ This list is maintained by Matt Hansen. Feel free to suggest additions or correc
 
 ---
 
-*Last updated: November 19, 2026*
+*Last updated: November 20, 2026*
